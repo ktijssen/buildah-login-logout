@@ -6,18 +6,18 @@ on:
       major:
         description: Major
         required: true
-        type: number
-        default: 0
+        type: string
+        default: "0"
       minor:
         description: Minor
         required: true
-        type: number
-        default: 0
+        type: string
+        default: "0"
       patch:
         description: Patch
         required: true
-        type: number
-        default: 0
+        type: string
+        default: "0"
       commitId:
         description: CommitID
         required: true
